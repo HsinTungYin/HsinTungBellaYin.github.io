@@ -12,7 +12,7 @@ function draw(){
 
     fill("#8968CD");
     stroke ('white');
-    if (mouseX < 200){
+    if (mouseX < 800){
         rect(mouseX, mouseY, 100, 100);
     }else{
         circle(mouseX,mouseY, 100,50,25);
