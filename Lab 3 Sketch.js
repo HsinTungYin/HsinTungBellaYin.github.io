@@ -6,7 +6,6 @@ let displayText = ""
 
 function setup() {
     createCanvas(700, 350);
-    
 
     // Slider for circle size
     strokeWeightSlider = createSlider(5, 20, 5, 1);
