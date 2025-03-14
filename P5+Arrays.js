@@ -1,5 +1,5 @@
 // Assignment 4: P5 + Arrays
-// References:
+// References (Tutorials and Examples):
 // 1. p5.js Array Reference: https://p5js.org/reference/p5/Array/
 // 2. Repeating with Loops: https://p5js.org/tutorials/repeating-with-loops/
 // 3. Random Poetry Example: https://p5js.org/examples/listing-data-with-arrays-random-poetry/
@@ -11,7 +11,7 @@ let words = ["Flow" , "Drift" , "Rise" , "Glow" , "Fade" , "Echo" , "Shimmer" , 
 let button;
 
 function setup() {
-  createCanvas(600, 500);
+  createCanvas(700, 500);
   button = createButton("Add Particles");
   button.position(30, 500);
   button.mousePressed(addParticles);
@@ -37,7 +37,7 @@ function addParticles() {
   for (let i = 0; i < 1; i++) { // Looping through array to generate particles
     let word=random (words) //from Random Poetry Example
     let color =random (colors) //from Random Poetry Example
-    let p = new Particle(random(width), random(height), color, word);//from Random Poetry Example
+    let p = new Particle(random(width), random(height), color, word); //from Random Poetry Example
     particles.push(p); //Using Array.push())
   }
 }
