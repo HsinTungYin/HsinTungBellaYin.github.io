@@ -29,7 +29,8 @@ function draw() {
   textSize(14);
   fill(116, 166, 146);
   text("He is my cat ... Porsche!", 25, 35);
-  text("Click to Toggle Image!  Click 'Page Reload Button' if you can't see the video.", 25, 380);
+  text("Click to Toggle Image! ", 25, 360);
+  text("Click 'Page Reload Button' if you can't see the video.", 25, 380);
 }
 
 //Toggle Image
