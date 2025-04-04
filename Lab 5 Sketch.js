@@ -5,8 +5,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 800);
-  background(255);
+  createCanvas(700, 320);
+  background(176,224,230);
   drawAnimal();
 }
 
