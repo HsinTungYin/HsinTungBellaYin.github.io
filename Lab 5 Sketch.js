@@ -6,14 +6,16 @@ function preload() {
 
 function setup() {
   createCanvas(700, 320);
-  background(175,222,225);
+  background(175,230,240);
   drawAnimal();
 }
 
 function drawAnimal() {
   noStroke();
 
+
   //* Elephant *
+
   // Head
   fill(150);
   ellipse(animal.head.x, animal.head.y, animal.head.size);
@@ -49,6 +51,7 @@ function drawAnimal() {
 
   
   //* Bear *
+  
   // Head
   fill(160,82,45);
   ellipse(animal.Head.x, animal.Head.y, animal.Head.size);
