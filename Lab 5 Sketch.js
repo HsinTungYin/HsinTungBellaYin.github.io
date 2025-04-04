@@ -6,7 +6,7 @@ function preload() {
 
 function setup() {
   createCanvas(700, 320);
-  background(175,224,230);
+  background(175,222,225);
   drawAnimal();
 }
 
