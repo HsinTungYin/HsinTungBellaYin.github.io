@@ -2,83 +2,72 @@
     <head>
         <meta charset="UTF-8">
         <title>
-            My Website
+            Assignment 5 - Final Project Proposal
         </title>
-    
-    </head>
-    <p style="font-family:sans-serif"></p>
         <header>
-            <h1 style="font-family:Georgia">Welcome to Hsin-Tung's Website</h1>
-            <p style="font-family:Georgia"> Hello! I'm Bella from Advertising Program.</p>
-            <p style="font-family:Georgia"> Here, I will present my Learning process & Works during the course SCTM-2005!</p>
+            <h1 style="font-family:Georgia"> Final Project Proposal </h1>
         </header>
-
-    <body>
-    <div>
-        <h2 style="font-family:Georgia">Assignment</h2>
-
-        <a style="font-family:Georgia" href="Assignment 2.html">・Assignment 2 - Citing Code </a>
-        </br>
-        <a style="font-family:Georgia" href="Assignment 3.html">・Assignment 3 - "Text Adventure" in P5.js with Events </a>
-        </br>
-        <a style="font-family:Georgia" href="Assignment 4.html">・Assignment 4 - P5 + Arrays </a>
-        </br>
-        <a style="font-family:Georgia" href="Assignment 5.html">・Assignment 5 - Final Project Proposal </a>
-        </br>
-        <a style="font-family:Georgia" href="Final Project.html">・Final Project</a>
-    </div>
-    
-    <div>
-        <h2 style="font-family:Georgia">Lab</h2>
-
-        <a style="font-family:Georgia" href="Lab 1.html">・Lab 1 - Patterns from Iteration </a>
-        </br>
-        <a style="font-family:Georgia" href="Lab 2.html">・Lab 2 - Objects </a>
-        </br>
-        <a style="font-family:Georgia" href="Lab 3.html">・Lab 3 - Graphical User Interface </a>
-        </br>
-        <a style="font-family:Georgia" href="Lab 4.html">・Lab 4 - Multimedia </a>
-        </br>
-        <a style="font-family:Georgia" href="Lab 5.html">・Lab 5 - JSON </a>
-        </br>
-    </div>
-
+    </head>
     <style>
-        
-        a:link {
+    body {
+        width:70%;
+        font-family:Georgia ;
+        margin: 40px;
+      }
+      h2 {
+        color: #34495e;
+      }
+      p, ul {
+        line-height: 1.5;
+      }
+      ul {
+        list-style-type: disc;
+      }
+      code {
+        background-color: #e0e0e0;
+        padding: 2px 4px;
+        border-radius: 3px;
+      }
+      a:link {
           color: rgb(82, 99, 194);
           background-color: transparent;
           text-decoration: none;
-        }
-
-        a:hover {
-          color: rgb(33, 153, 180);
-          background-color: transparent;
-          text-decoration: underline;
-        }
-        
-        a:active {
-          color: rgb(253, 186, 214);
-          background-color: transparent;
-          text-decoration: underline;
-        }
-        </style>
-    
-    <h2 style="font-family:Georgia">Art Gallery</h2>
-        <h3 style="font-family:Georgia">Speed & Motion</h3>
-        <img src="Art Gallery 1.png" alt="Stop Action" width="450" height="300">
-        <img src="Art Gallery 2.png" alt="Blurred Obj" width="450" height="300">
-    <div>
-        <h3 style="font-family:Georgia">Creative Sphere</h3>
-        <img src="Art Gallery 3.png" alt="Frozen Sphere" width="450" height="300">
-        <img src="Art Gallery 4.png" alt="Water Splash Sphere" width="450" height="300">
-    </div>
-    
-    <h2 style="font-family:Georgia">P5.js Sketch</h2>
-    <p><a href="https://p5js.org/">p5.js Library</a></p>
-    <script src="p5.min.js"></script>
-    <script src="sketch.js"></script>
-    <script src="consolelog.js"></script>
-    
-    </body>
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Description</h3>
+    <p>I will create a <strong>Typing Catch Game</strong> using JavaScript. In this game, letters start falling from the top of the screen, and the player needs to type the corresponding letter to catch each one and prevent it from hitting the bottom. As the game progresses, the falling speed increases, making it more challenging. The game keeps track of the player's score, and missing too many letters results in a game over.</p>
+  
+    <h3>What I Don't Yet Know / Expect to Be Difficult</h3>
+    <ul>
+      <li>How to gradually increase the falling speed over time</li>
+      <li>How to make the game visually appealing with smooth animations</li>
+      <li>How to track the score and display a game-over message after multiple misses</li>
+    </ul>
+  
+    <h3>What I Already Know</h3>
+    <ul>
+      <li>Creating a simple game using JavaScript</li>
+      <li>Detecting keyboard input with <code>event listeners</code></li>
+      <li>Moving objects on screen using a <code>for loop</code></li>
+    </ul>
+  
+    <h3>Representative / Inspiration</h3>
+    <ul>
+      <li>Word(s) Typing Game:<a href="https://www.turtlediary.com/game/catching-bugs-typing.html"> Catching Bugs Typing Game | Turtle Diary</a></li>
+      <li>Catch the Falling Object Game: <a href="https://online.coolestprojects.org/projects/13479">Coolest Projects Online: Catch the Falling Object Game</a></li>
+      <img src="Game 1.png" alt="Stop Action" width="300" height="200">
+        <img src="Game 2.png" alt="Blurred Obj" width="300" height="200">
+    </ul>
+  
+    <h3>References, Tutorials, or Other Helpful Information</h3>
+    <ul>
+      <li><a href="https://editor.p5js.org/cdmorvin/sketches/e3AO9GkEs"> p5.js Web Editor | 3. The Typing Game </a></li>
+      <li><a href="https://codingmstr.com/catch-the-falling-object-game-using-javascript/">Catch the Falling Object Game using JavaScript</a></li>
+      <li><a href="https://www.w3schools.com/graphics/game_gravity.asp">Game Gravity</a></li>
+      <li><a href="https://youtu.be/vVXizarOnrU?si=Lpuqx5qvOzuXmbfs">p5.js Coding Tutorial | Interactive Falling Text Rain</a></li>
+      <li><a href="https://youtu.be/CU5uxSXlL4g?si=hKCiLrj8en149yZ1">Code in FIVE Minutes with ZIM (04 - Falling Game) JavaScript for HTML Canvas</a></li>
+    </ul>
+  </body>
 </html>
