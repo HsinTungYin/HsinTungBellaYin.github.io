@@ -14,34 +14,59 @@
         </header>
 
     <body>
-    <div>
-        <h2 style="font-family:Georgia">Assignment</h2>
-
-        <a style="font-family:Georgia" href="Assignment 2.html">・Assignment 2 - Citing Code</a>
-        </br>
-        <a style="font-family:Georgia" href="Assignment 3.html">・Assignment 3 - "Text Adventure" in P5.js with Events </a>
-        </br>
-        <a style="font-family:Georgia"href="Assignment 4.html">・Assignment 4 - P5 + Arrays</a>
-        </br>
-        <a style="font-family:Georgia" href="Assignment 5.html">・Assignment 5 - Final Project Proposal</a>
-        </br>
-        <a style="font-family:Georgia" href="Final Project.html">・Final Project</a>
-    </div>
+        <!--Update: List format to Table format-->
+        <style>table {
+            width: 95%;
+            border-collapse: separate;
+            border-spacing: 8px 8px;
+        }
     
-    <div>
-        <h2 style="font-family:Georgia">Lab</h2>
-
-        <a style="font-family:Georgia" href="Lab 1.html">・Lab 1 - Patterns from Iteration</a>
-        </br>
-        <a style="font-family:Georgia" href="Lab 2.html">・Lab 2 - Objects</a>
-        </br>
-        <a style="font-family:Georgia" href="Lab 3.html">・Lab 3 - Graphical User Interface (GUI)</a>
-        </br>
-        <a style="font-family:Georgia" href="Lab 4.html">・Lab 4 - Multimedia</a>
-        </br>
-        <a style="font-family:Georgia" href="Lab 5.html">・Lab 5 - JSON</a>
-        </br>
-    </div>
+          th {
+            width: 800px;
+            background-color: white;
+            font-weight: bold;
+            text-align: middle;
+          }
+    
+          td {
+            padding: 8px;
+          }
+    
+          tr td:first-child {
+            background-color: #fef3c7;
+          }
+          tr td:last-child {
+            background-color: #d1e7dd;
+          }
+        </style>
+        
+        <h2>Assignments & Labs</h2>
+        <table>
+          <tr>
+            <th>Assignment</th>
+            <th>Lab</th>
+          </tr>
+          <tr>
+            <td><a href="Assignment 2.html">Assignment 2 - Citing Code</a></td>
+            <td><a href="Lab 1.html">Lab 1 - Patterns from Iteration</a></td>
+          </tr>
+          <tr>
+            <td><a href="Assignment 3.html">Assignment 3 - "Text Adventure" in P5.js with Events</a></td>
+            <td><a href="Lab 2.html">Lab 2 - Objects</a></td>
+          </tr>
+          <tr>
+            <td><a href="Assignment 4.html">Assignment 4 - P5 + Arrays</a></td>
+            <td><a href="Lab 3.html">Lab 3 - Graphical User Interface (GUI)</a></td>
+          </tr>
+          <tr>
+            <td><a href="Assignment 5.html">Assignment 5 - Final Project Proposal</a></td>
+            <td><a href="Lab 4.html">Lab 4 - Multimedia</a></td>
+          </tr>
+          <tr>
+            <td><a href="Final Project.html">Final Project - Typing Game: Catch the Words!</a></td>
+            <td><a href="Lab 5.html">Lab 5 - JSON</a></td>
+          </tr>
+        </table>
 
     <style>
         
@@ -62,14 +87,14 @@
           background-color: transparent;
           text-decoration: underline;
         }
-        </style>
+    </style>
     
     <h2 style="font-family:Georgia">Art Gallery</h2>
-        <h3 style="font-family:Georgia">Speed & Motion</h3>
+        <h4 style="font-family:Georgia">Speed & Motion</h4>
         <img src="Art Gallery 1.png" alt="Stop Action" width="450" height="300">
         <img src="Art Gallery 2.png" alt="Blurred Obj" width="450" height="300">
     <div>
-        <h3 style="font-family:Georgia">Creative Sphere</h3>
+        <h4 style="font-family:Georgia">Creative Sphere</h4>
         <img src="Art Gallery 3.png" alt="Frozen Sphere" width="450" height="300">
         <img src="Art Gallery 4.png" alt="Water Splash Sphere" width="450" height="300">
     </div>
@@ -77,8 +102,17 @@
     <h2 style="font-family:Georgia">P5.js Sketch</h2>
     <p><a href="https://p5js.org/">p5.js Library</a></p>
     <script src="p5.min.js"></script>
-    <script src="sketch.js"></script>
     <script src="consolelog.js"></script>
+
+    <!--Previous Sketch -->
+    <h4 style="font-family:Georgia">Sketch 1 - Moving Ball Animation</h4>
+    <div id="sketch1-container"></div>
+
+    <!-- New Update Sketch -->
+    <h4 style="font-family:Georgia">Sketch 2 - Interactive Colorful Circles</h4>
+    <div id="sketch2-container"></div>
     
+    <script src="p5.min.js"></script>
+    <script src="sketch.js"></script>
     </body>
 </html>
