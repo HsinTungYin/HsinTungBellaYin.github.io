@@ -80,8 +80,8 @@ function randomWord() {
     const rock = document.createElement("div")
     rock.innerText = randomWord()
     rock.style.position = "absolute"
-    rock.style.width = "120px"
-    rock.style.height = "120px"
+    rock.style.width = "130px"
+    rock.style.height = "130px"
     rock.style.backgroundImage = "url('rockk.png')"
     rock.style.backgroundSize = "cover"
     rock.style.backgroundRepeat = "no-repeat"
