@@ -175,7 +175,7 @@ function handleKey(e) {
     }
   }
 
-// Start the Game!!
+// To Start the Game
 // Listen for Key Presses
 document.addEventListener("keydown", handleKey)
 
