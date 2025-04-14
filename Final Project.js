@@ -22,10 +22,10 @@ document.body.appendChild(game)
 // Bottom Line Indicator
 const bottomLine = document.createElement("div")
 bottomLine.style.position = "absolute"
-bottomLine.style.bottom = "100px"
+bottomLine.style.bottom = "40px"
 bottomLine.style.left = "0"
 bottomLine.style.width = "100%"
-bottomLine.style.height = "10px"
+bottomLine.style.height = "20px"
 bottomLine.style.backgroundColor = "white"
 game.appendChild(bottomLine)
 
@@ -80,8 +80,8 @@ function randomWord() {
     const rock = document.createElement("div")
     rock.innerText = randomWord()
     rock.style.position = "absolute"
-    rock.style.width = "100px"
-    rock.style.height = "100px"
+    rock.style.width = "120px"
+    rock.style.height = "120px"
     rock.style.backgroundImage = "url('rockk.png')"
     rock.style.backgroundSize = "cover"
     rock.style.backgroundRepeat = "no-repeat"
