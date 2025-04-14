@@ -7,7 +7,7 @@
 const game = document.createElement("div")
 
 // Background Image
-document.body.style.backgroundImage = "url('Earth.png')"
+document.body.style.backgroundImage = "url('Earth.PNG')"
 document.body.style.backgroundSize = "cover"
 document.body.style.backgroundPosition = "center"
 document.body.style.backgroundRepeat = "no-repeat"
