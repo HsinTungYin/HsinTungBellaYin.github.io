@@ -80,14 +80,14 @@ function randomWord() {
     const rock = document.createElement("div")
     rock.innerText = randomWord()
     rock.style.position = "absolute"
-    rock.style.width = "70px"
-    rock.style.height = "70px"
+    rock.style.width = "100px"
+    rock.style.height = "100px"
     rock.style.backgroundImage = "url('rockk.png')"
     rock.style.backgroundSize = "cover"
     rock.style.backgroundRepeat = "no-repeat"
     rock.style.color = "black"
     rock.style.fontWeight = "bold"
-    rock.style.fontSize = "20px"
+    rock.style.fontSize = "40px"
     rock.style.display = "flex"
     rock.style.alignItems = "center"
     rock.style.justifyContent = "center"
