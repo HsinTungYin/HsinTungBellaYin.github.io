@@ -35,7 +35,7 @@ scoreText.style.position = "absolute"
 scoreText.style.top = "10px"
 scoreText.style.left = "10px"
 scoreText.style.color = "white"
-scoreText.style.fontSize = "30px"
+scoreText.style.fontSize = "50px"
 scoreText.innerText = "Score: 0"
 game.appendChild(scoreText)
 
@@ -134,7 +134,7 @@ lifeText.style.position = "absolute"
 lifeText.style.top = "10px"
 lifeText.style.right = "10px"
 lifeText.style.color = "white"
-lifeText.style.fontSize = "40px"
+lifeText.style.fontSize = "50px"
 lifeText.innerText = "❤️❤️❤️❤️❤️"
 game.appendChild(lifeText);
 
